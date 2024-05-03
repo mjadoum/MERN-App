@@ -2,7 +2,7 @@
 
 ## Installation
 
-To install and run the Expense Tracker project, follow these steps:
+To install and run this project, follow these steps:
 
 1. Clone the repository to your local machine in the terminal:
 
