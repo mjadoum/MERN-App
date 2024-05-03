@@ -1,0 +1,185 @@
+/* Google fonts style */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap");
+
+/* General style */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f6ff;
+}
+.container {
+  padding: 10px;
+  font-family: "Outfit", sans-serif;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* buttons style */
+.btn {
+  border: none !important;
+  padding: 10px 15px !important;
+  font-size: 16px !important;
+  border-radius: 1px !important;
+  color: black !important;
+  font-weight: 400 !important;
+  font-family: "Outfit", sans-serif;
+}
+.btn-add {
+  background-color: #bff8cd !important;
+  border: 1px solid #48db6d !important;
+}
+.btn-add:hover {
+  background-color: #a0f3b5 !important;
+  border: 1px solid #48db6d !important;
+}
+.btn-search{
+  background-color: #bff8cd !important;
+  border: 1px solid #48db6d !important;
+}
+.btn-edit {
+  border: 1px solid #167ddd !important;
+  background-color: #8ed9f7 !important;
+  margin-right: 10px;
+  font-size: 14px !important;
+}
+.btn-edit:hover {
+  border: 1px solid #167ddd !important;
+  background-color: #167ddd !important;
+  color: #fff !important;
+}
+.btn-delete {
+  border: 1px solid #f82424 !important;
+  background-color: #fa9d9d !important;
+  font-size: 14px !important;
+}
+.btn-delete:hover {
+  border: 1px solid #f82424 !important;
+  background-color: #f82424 !important;
+  color: #fff !important;
+}
+
+/* Add && edit form container style */
+.addContainer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addContainer h2 {
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+.addContainer form {
+  width: 400px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  margin: 10px;
+}
+.addContainer form label {
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+.addContainer form button {
+  background-color: royalblue;
+  color: #f5f6ff !important;
+  margin-top: 15px;
+}
+.addContainer form button:hover {
+  background-color: rgb(61, 92, 187);
+  color: #f5f6ff;
+  margin-top: 15px;
+}
+.addContainer form input {
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+.addContainer form .close-btn {
+  margin-left: auto;
+
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f82424;
+  border-radius: 20px;
+  color: #f82424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.addContainer form .close-btn:hover {
+  border: 2px solid #f82424;
+  background-color: #f82424;
+  border-radius: 20px;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* table style */
+.tableContainer {
+  margin-top: 50px;
+}
+.tableContainer table thead tr th {
+  min-width: 200px;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 3px solid #979696 !important;
+}
+.tableContainer table tbody tr td {
+  border-bottom: 1px solid #979696 !important;
+  border-top: 1px solid #ccc !important;
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+   text-align: center;
+}
+.tableContainer table .no-data {
+ 
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+   text-align: center;
+   margin-top: 30px;
+   
+}
+
+
+/* search style */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.search-container input {
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid #6d6d6d;
+  color: #6d6d6d !important;
+   font-size: 16px;
+  height: 50px;
+  margin-top: 10px;
+  width: 500px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+}
