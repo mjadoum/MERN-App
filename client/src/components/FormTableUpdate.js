@@ -24,7 +24,7 @@ const FormTableUpdate = ({
           onChange={handelOnChange}
         />
         <button type="submit" className="btn">
-          Create
+          Update
         </button>
       </form>
     </div>
