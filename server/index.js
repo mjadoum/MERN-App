@@ -101,7 +101,7 @@ app.delete("/delete/:id", async (req, res) => {
 
 // Connect to MongoDB and start server
 mongoose
-  .connect("mongodb://localhost:27017/new-docker-db")
+  .connect("mongodb://localhost:27017/crudtest")
   .then(() => {
     console.log("Connected to MongoDB");
     app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
